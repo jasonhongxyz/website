@@ -11,21 +11,30 @@ services:
   reverse-proxy:
     image: traefik:latest
     # Enables the web UI and tells Traefik to listen to docker
-    command: --api.insecure=true --providers.docker
+    command: 
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.websecure.address=:443"
+      - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
+      - "--certificatesresolvers.myresolver.acme.email=jasonhong0810@gmail.com"
+      - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
     ports:
-      # The HTTP port
-      - "80:80"
+      - "443:443"
       # The Web UI (enabled by --api.insecure=true)
       - "8080:8080"
     volumes:
+      - "./letsencrypt:/letsencrypt"
       # So that Traefik can listen to the Docker events
       - /var/run/docker.sock:/var/run/docker.sock
 
   blog:
     image: jasonhongxyz/blog
     labels:
-      - traefik.http.routers.blog.rule=Host(`blog.jasonhong.xyz`) || Host(`blog.localhost`)
-      - traefik.port=80
+      - "traefik.enable=true"
+      - "traefik.http.routers.blog.rule=Host(`blog.jasonhong.xyz`) || Host(`blog.localhost`)"
+      - "traefik.http.routers.blog.entrypoints=websecure"
+      - "traefik.http.routers.blog.tls.certresolver=myresolver"
     restart: always
 
   docker:
@@ -52,8 +61,10 @@ services:
       - 'DOCKER_CERT_PATH=/certs/client'
       - 'DOCKER_TLS_VERIFY=1'
     labels:
-      - traefik.http.routers.ci.rule=Host(`ci.jasonhong.xyz`) || Host(`ci.localhost`)
-      - traefik.port = 80
+      - "traefik.enable=true"
+      - "traefik.http.routers.ci.rule=Host(`ci.jasonhong.xyz`) || Host(`ci.localhost`)"
+      - "traefik.http.routers.blog.entrypoints=websecure"
+      - "traefik.http.routers.blog.tls.certresolver=myresolver"
     volumes:
       - 'jenkins-data:/var/jenkins_home'
       - 'jenkins-docker-certs:/certs/client:ro'
