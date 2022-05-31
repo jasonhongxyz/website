@@ -1,0 +1,76 @@
+version: "3"
+
+networks:
+  web:
+
+volumes:
+  jenkins-docker-certs:
+  jenkins-data:
+
+services:
+  reverse-proxy:
+    image: traefik:latest
+    # Enables the web UI and tells Traefik to listen to docker
+    command: 
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--entrypoints.web.http.redirections.entrypoint.to=websecure"
+      - "--entrypoints.web.http.redirections.entrypoint.scheme=https"
+      - "--certificatesresolvers.myresolver.acme.httpchallenge=true"
+      - "--certificatesresolvers.myresolver.acme.httpchallenge.entrypoint=web"
+      - "--certificatesresolvers.myresolver.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
+      - "--certificatesresolvers.myresolver.acme.email=jasonhong0810@gmail.com"
+      - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
+    ports:
+      - "80:80"
+      - "443:443"
+      # The Web UI (enabled by --api.insecure=true)
+      - "8080:8080"
+    volumes:
+      - "./letsencrypt:/letsencrypt"
+      # So that Traefik can listen to the Docker events
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  blog:
+    image: jasonhongxyz/blog
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.blog.rule=Host(`blog.jasonhong.xyz`) || Host(`www.blog.jasonhong.xyz`) || Host(`blog.localhost`)"
+      - "traefik.http.routers.blog.entrypoints=websecure"
+      - "traefik.http.routers.blog.tls.certresolver=myresolver"
+    restart: always
+
+  # docker:
+  #   image: docker:dind
+  #   container_name: jenkins-docker
+  #   # network_mode: web
+  #   environment:
+  #     - 'DOCKER_TLS_CERTDIR=/certs'
+  #   volumes:
+  #     - 'jenkins-docker-certs:/certs/client'
+  #     - 'jenkins-data:/var/jenkins_home'
+  #   ports:
+  #     - '2376:2376'
+  #   privileged: true
+  #   command: '--storage-driver=overlay2'
+
+  myjenkins:
+    image: jasonhongxyz/myjenkins
+    container_name: jenkins-blueocean
+    restart: on-failure
+    network_mode: web
+    environment:
+      - 'DOCKER_HOST=tcp://docker:2376'
+      - 'DOCKER_TLS_VERIFY=1'
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.ci.rule=Host(`ci.jasonhong.xyz`) || Host(`www.ci.jasonhong.xyz`) || Host(`ci.localhost`)"
+      - "traefik.http.routers.ci.entrypoints=websecure"
+      - "traefik.http.routers.ci.tls.certresolver=myresolver"
+    volumes:
+      - '/var/jenkins_home:/var/jenkins_home'
+      - '/var/run/docker.sock:/var/run/docker.sock'
+
