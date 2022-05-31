@@ -43,29 +43,10 @@ services:
       - "traefik.http.routers.blog.tls.certresolver=myresolver"
     restart: always
 
-  docker:
-    image: docker:dind
-    container_name: jenkins-docker
-    # network_mode: web
-    environment:
-      - 'DOCKER_TLS_CERTDIR=/certs'
-    volumes:
-      - 'jenkins-docker-certs:/certs/client'
-      - 'jenkins-data:/var/jenkins_home'
-    ports:
-      - '2376:2376'
-    privileged: true
-    command: '--storage-driver=overlay2'
-
   myjenkins:
     image: jasonhongxyz/myjenkins
     container_name: jenkins-blueocean
     restart: on-failure
-    # network_mode: web
-    environment:
-      - 'DOCKER_HOST=tcp://docker:2376'
-      - 'DOCKER_CERT_PATH=/certs/client'
-      - 'DOCKER_TLS_VERIFY=1'
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.ci.rule=Host(`ci.jasonhong.xyz`) || Host(`www.ci.jasonhong.xyz`) || Host(`ci.localhost`)"
@@ -73,5 +54,5 @@ services:
       - "traefik.http.routers.ci.tls.certresolver=myresolver"
     volumes:
       - 'jenkins-data:/var/jenkins_home'
-      - 'jenkins-docker-certs:/certs/client:ro'
+      - '/var/run/docker.sock:/var/run/docker.sock'
 
