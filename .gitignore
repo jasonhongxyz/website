@@ -2,4 +2,4 @@
 .jekyll-cache
 .jekyll-metadata
 vendor
-letsencrypt
+letsencrypt/

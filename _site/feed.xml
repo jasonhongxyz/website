@@ -1,17 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://blog.jasonhong.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.jasonhong.xyz/" rel="alternate" type="text/html" /><updated>2022-05-30T22:23:58-05:00</updated><id>https://blog.jasonhong.xyz/feed.xml</id><title type="html">Jason Hong</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="https://blog.jasonhong.xyz/jekyll/update/2022/05/29/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-05-29T19:38:29-05:00</published><updated>2022-05-29T19:38:29-05:00</updated><id>https://blog.jasonhong.xyz/jekyll/update/2022/05/29/welcome-to-jekyll</id><content type="html" xml:base="https://blog.jasonhong.xyz/jekyll/update/2022/05/29/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-04T22:11:53-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jason Hong</title><subtitle>my projects and blog | made w/ &lt;3
+</subtitle><author><name>Jason Hong</name><email>jason@jasonhong.xyz</email></author><entry><title type="html">On Jekyll, Jenkins, and Docker Compose</title><link href="http://localhost:4000/blog/2022/06/01/on-jekyll-jenkins-docker.html" rel="alternate" type="text/html" title="On Jekyll, Jenkins, and Docker Compose" /><published>2022-06-01T19:38:29-05:00</published><updated>2022-06-01T19:38:29-05:00</updated><id>http://localhost:4000/blog/2022/06/01/on-jekyll-jenkins-docker</id><content type="html" xml:base="http://localhost:4000/blog/2022/06/01/on-jekyll-jenkins-docker.html"><![CDATA[<p>I needed an easier, faster, better way to maintain my site.</p>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<h3 id="the-before">The “Before”</h3>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<p>This site was originally stood up November 2020 as just a HTML/CSS template on
+a tiny VPS. It took the better part of a weekend to get the domain, nginx, and
+LetsEncrypt configuration all set up (mostly because I had no idea what I was
+doing), and aside from the occassional updates and reboots, the site remained
+largely unchanged for the duration of its tenure.</p>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>I was pretty proud of it, sure, but as time went on, a few things started to
+bother me. My lack of familiarity with HTML/CSS meant there was no good avenue
+for me to write (which I wanted to do) without first learning some front-end,
+and the manual configuration meant that if, for whatever reason, my site were
+to break, it could/would require quite a bit of time and effort to set up
+<em>all over again</em>.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>I needed something better.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<h3 id="the-fix">The “Fix”</h3>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p>Automate everything.</p>
+
+<p>Some software I chose and why:</p>
+<ul>
+  <li><a href="https://jekyllrb.com/docs/home">Jekyll</a>: I wanted a site that was dead simple to edit, so a
+static-site generator was a natural choice. I also like Markdown and LaTeX.</li>
+  <li><a href="https://docs.docker.com/">Docker</a>/<a href="https://docs.docker.com/compose/">Compose</a>: I wanted something that was easy to
+deploy, and was relatively portable.</li>
+  <li><a href="https://www.jenkins.io/doc/">Jenkins</a>: I want something that I can <code class="language-plaintext highlighter-rouge">git commit</code>, and everything
+else is done automatically. Also I want my own CI server.</li>
+</ul>
+
+<p>It’s getting close to midnight and I don’t feel like writing up <em>every</em> single
+step I took, so I’ll just summarize the workflow, and document some of the more
+troublesome steps in case I ever have to do it again. Skip to the end for that.</p>
+
+<p>All goes well, I should never have to start <em>completely</em> from scratch ever
+again.</p>
+
+<h3 id="the-workflow">The Workflow</h3>
+<h4 id="deployment">Deployment</h4>
+
+<h4 id="updating-the-image">Updating the Image</h4>
+
+<h4 id="add-a-blogpost--project">Add a blogpost / project</h4>
+
+<h3 id="the-troublesome-steps">The Troublesome Steps…</h3>
+
+<!-- 
+<figure class="highlight"><pre><code class="language-python" data-lang="python"> <span class="o">--&gt;</span>
+<span class="o">&lt;</span><span class="err">!</span><span class="o">--</span> <span class="k">def</span> <span class="nf">hello_world</span><span class="p">(</span><span class="nb">int</span> <span class="nb">input</span><span class="p">):</span> <span class="o">--&gt;</span>
+<span class="o">&lt;</span><span class="err">!</span><span class="o">--</span>   <span class="n">left</span> <span class="o">=</span> <span class="s">"right"</span> <span class="o">--&gt;</span>
+<span class="o">&lt;</span><span class="err">!</span><span class="o">--</span>   <span class="nb">input</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">left</span><span class="p">)</span> <span class="o">+</span> <span class="nb">input</span> <span class="o">--&gt;</span>
+<span class="o">&lt;</span><span class="err">!</span><span class="o">--</span>   <span class="k">return</span> <span class="nb">input</span> <span class="o">--&gt;</span>
+<span class="o">&lt;</span><span class="err">!</span><span class="o">--</span> </code></pre></figure>
+ -->]]></content><author><name>Jason Hong</name><email>jason@jasonhong.xyz</email></author><category term="blog" /><summary type="html"><![CDATA[I needed an easier, faster, better way to maintain my site.]]></summary></entry><entry><title type="html">This is a test project</title><link href="http://localhost:4000/projects/2022/06/01/test-project.html" rel="alternate" type="text/html" title="This is a test project" /><published>2022-06-01T19:38:29-05:00</published><updated>2022-06-01T19:38:29-05:00</updated><id>http://localhost:4000/projects/2022/06/01/test-project</id><content type="html" xml:base="http://localhost:4000/projects/2022/06/01/test-project.html"><![CDATA[<p>This is a test project.</p>]]></content><author><name>Jason Hong</name><email>jason@jasonhong.xyz</email></author><category term="projects" /><summary type="html"><![CDATA[This is a test project.]]></summary></entry></feed>
