@@ -22,6 +22,8 @@ And here's some stuff I find really cool:
 
 For more of what I'm up to, check out my [now](https://jasonhong.xyz/now.html) page.
 
+:)
+
 ---
 In my free time, I click heads on [Twitch](https://twitch.tv/jasonhongxyz) 
 and read.
