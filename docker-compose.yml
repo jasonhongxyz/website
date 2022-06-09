@@ -37,7 +37,7 @@ services:
 
   blog:
     image: jasonhongxyz/blog
-    container_name: myblog
+    container_name: blog
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.blog.rule=Host(`jasonhong.xyz`) || Host(`www.jasonhong.xyz`) || Host(`localhost`)"
