@@ -10,7 +10,6 @@ volumes:
 services:
   reverse-proxy:
     image: traefik:latest
-    container_name: traefik
     # Enables the web UI and tells Traefik to listen to docker
     command: 
       - "--api.insecure=true"
@@ -37,7 +36,6 @@ services:
 
   blog:
     image: jasonhongxyz/blog
-    container_name: blog
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.blog.rule=Host(`jasonhong.xyz`) || Host(`www.jasonhong.xyz`) || Host(`localhost`)"
@@ -47,7 +45,6 @@ services:
 
   myjenkins:
     image: jasonhongxyz/myjenkins
-    container_name: jenkins
     restart: on-failure
     labels:
       - "traefik.enable=true"
