@@ -27,7 +27,7 @@ jobs:
           - "b4:78:c3:4f:8e:fc:d2:87:ae:d6:ce:b2:e7:e0:45:d2"
       - run: |
           ssh-keyscan jasonhong.xyz >> ~/.ssh/known_hosts
-          ssh root@50.116.18.84 "ls -la"
+          ssh root@jasonhong.xyz "ls -la"
           
 
 workflows:
