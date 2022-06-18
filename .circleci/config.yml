@@ -30,7 +30,7 @@ jobs:
           ssh root@jasonhong.xyz \<<'ENDSSH'
           cd testsite
           docker pull jasonhongxyz/blog:latest
-          docker compose up
+          docker compose up -d
           ENDSSH
 
 workflows:
