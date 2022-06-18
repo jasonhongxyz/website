@@ -3,18 +3,17 @@ version: 2.1
 orbs:
   docker: circleci/docker@1.7.0
 
+jobs:
+  docker-blog:
+    docker:
+      # replace with your preferred image
+      - image: cimg/base:stable
+    steps:
+      - docker/build:
+          dockerfile: Dockerfile-blog 
+          image: blog 
+
 workflows:
-    example-workflow:
-      jobs:
-        - docker/publish:
-            image: blog 
-            docker-password: DOCKER_PASS 
-            docker-username: DOCKER_USER 
-            deploy: true 
-            lint-dockerfile: true 
-            remote-docker-dlc: false 
-            treat-warnings-as-errors: false 
-            update-description: false 
-            use-docker-credentials-store: false 
-            use-remote-docker: false 
-            dockerfile: Dockerfile-blog 
+  example-workflow:
+    jobs:
+      - docker-blog
