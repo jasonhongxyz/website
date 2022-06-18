@@ -17,7 +17,11 @@ jobs:
           docker-username: DOCKER_USER 
       - docker/build:
           dockerfile: Dockerfile-blog 
-          image: jasonhongxyz/blog 
+          image: jasonhongxyz/blog
+          tag: latest
+      - docker/push:
+          image: jasonhongxyz/blog
+          tag: latest
 
 workflows:
   main:
