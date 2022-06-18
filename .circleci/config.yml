@@ -22,6 +22,11 @@ jobs:
       - docker/push:
           image: jasonhongxyz/blog
           tag: latest
+      - add_ssh_keys:
+          fingerprints:
+          - "b4:78:c3:4f:8e:fc:d2:87:ae:d6:ce:b2:e7:e0:45:d2"
+      - run: ls -la
+          
 
 workflows:
   main:
