@@ -9,6 +9,7 @@ jobs:
       # replace with your preferred image
       - image: cimg/base:stable
     steps:
+      - checkout
       - docker/check:
           docker-password: DOCKER_PASS 
           docker-username: DOCKER_USER 
