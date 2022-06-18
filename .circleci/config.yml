@@ -14,9 +14,9 @@ jobs:
           docker-username: DOCKER_USER 
       - docker/build:
           dockerfile: Dockerfile-blog 
-          image: blog 
+          image: jasonhongxyz/blog 
 
 workflows:
-  example-workflow:
+  main:
     jobs:
       - docker-blog
