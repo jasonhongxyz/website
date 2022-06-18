@@ -28,7 +28,6 @@ jobs:
       - run: |
           ssh-keyscan jasonhong.xyz >> ~/.ssh/known_hosts
           ssh root@jasonhong.xyz "ls -la"
-          
 
 workflows:
   main:
