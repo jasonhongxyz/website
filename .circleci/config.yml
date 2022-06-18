@@ -10,6 +10,8 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: false
       - docker/check:
           docker-password: DOCKER_PASS 
           docker-username: DOCKER_USER 
