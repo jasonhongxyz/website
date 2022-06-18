@@ -9,6 +9,9 @@ jobs:
       # replace with your preferred image
       - image: cimg/base:stable
     steps:
+      - docker/check:
+          docker-password: DOCKER_PASS 
+          docker-username: DOCKER_USER 
       - docker/build:
           dockerfile: Dockerfile-blog 
           image: blog 
