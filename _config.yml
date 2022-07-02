@@ -3,7 +3,7 @@ author:
   name: Jason Hong
   email: jason@jasonhong.xyz
 description: > # this means to ignore newlines until "show_excerpts:"
-  My projects and blog | Made w/ <3
+  My projects and blog
 show_excerpts: true # set to true to show excerpts on the homepage
 ignore_theme_config: true
 

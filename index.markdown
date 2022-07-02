@@ -12,15 +12,9 @@ I'm interested in operating systems, security, and image classification.
 
 Boston University CS '21. Formerly BU BIL.
 
-Here's some [stuff](https://github.com/jasonhongxyz/) I'm working on:
-
-And here's some stuff I find really cool:
-- [An interactive mechanical watch visualization](https://ciechanow.ski/mechanical-watch/)
-- [Do You Love Me?](https://www.youtube.com/watch?v=fn3KWM1kuAw)
+[Here's](https://github.com/jasonhongxyz/) what I'm working on.
 
 For more of what I'm up to, check out my [now](https://jasonhong.xyz/now.html) page.
-
-:)
 
 ---
 In my free time, I click heads on [Twitch](https://twitch.tv/jasonhongxyz) 

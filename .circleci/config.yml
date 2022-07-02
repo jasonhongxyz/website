@@ -28,7 +28,7 @@ jobs:
       - run: |
           ssh-keyscan jasonhong.xyz >> ~/.ssh/known_hosts
           ssh root@jasonhong.xyz \<<'ENDSSH'
-          cd testsite
+          cd website 
           docker pull jasonhongxyz/blog:latest
           docker compose up -d
           ENDSSH
