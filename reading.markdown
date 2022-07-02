@@ -4,7 +4,7 @@ title: Readings
 ---
 
 # What I'm Reading
-This page is for what I'm reading. Sometimes I take notes.
+This page is for what I'm reading.
 
 <img src="/assets/catjam.gif" alt="catjam" width="32">
 
