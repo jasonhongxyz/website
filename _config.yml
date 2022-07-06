@@ -3,7 +3,7 @@ author:
   name: Jason Hong
   email: jason@jasonhong.xyz
 description: > # this means to ignore newlines until "show_excerpts:"
-  My projects and blog
+  :)
 show_excerpts: true # set to true to show excerpts on the homepage
 ignore_theme_config: true
 
@@ -21,7 +21,7 @@ minima:
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    linkedin: jekyll
+    linkedin: jasonhongcs
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
@@ -56,3 +56,4 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+

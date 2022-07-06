@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "This is a test project"
+title:  "Mini-Haskell"
 date:   2022-06-01 19:38:29 -0500
 category: projects
 ---
-
-This is a test project.
+A Haskell-like Functional Programming Language
