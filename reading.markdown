@@ -7,7 +7,7 @@ title: Readings
 This page is for what I'm reading.
 
   1. [How the Higgs Boson Ruined Peter Higgs’s Life](https://www.scientificamerican.com/article/how-the-higgs-boson-ruined-peter-higgss-life/) -  Clara Moskowitz, Scientific American
-  1. [Ignition!](https://library.sciencemadness.org/library/books/ignition.pdf)
+  1. [Ignition!](https://library.sciencemadness.org/library/books/ignition.pdf) - John D. Clark, 1972
 
 <img src="/assets/catjam.gif" alt="catjam" width="32">
 

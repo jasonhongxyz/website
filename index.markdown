@@ -12,7 +12,8 @@ I'm interested in operating systems, security, and image classification.
 
 Boston University CS '21. Formerly BU BIL.
 
-[Here's](https://github.com/jasonhongxyz/) what I'm working on.
+[Here](https://github.com/jasonhongxyz/) is my GitHub -- it's where you can find
+what I'm working on.
 
 For more of what I'm up to, check out my [now](https://jasonhong.xyz/now.html) page.
 

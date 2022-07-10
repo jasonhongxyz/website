@@ -63,7 +63,7 @@ services:
       restart: always
 ```
 
-I used [Traefik Proxy][traefik-proxy] container as my reverse proxy service. The configuration
+I used a [Traefik Proxy][traefik-proxy] container as my reverse proxy service. The configuration
 for Traefik can be done through its compose entry -- I used the following to
 register the domains, and setup LetsEncrypt certs.
 ```yaml
@@ -81,7 +81,7 @@ services:
       - "--entrypoints.web.http.redirections.entrypoint.scheme=https"
       - "--certificatesresolvers.myresolver.acme.httpchallenge=true"
       - "--certificatesresolvers.myresolver.acme.httpchallenge.entrypoint=web"
-      # Comment to use production LetsEncrypt env
+      # Comment to use production LetsEncrypt environment
       #- "--certificatesresolvers.myresolver.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
       - "--certificatesresolvers.myresolver.acme.email=jasonhong0810@gmail.com"
       - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
@@ -95,8 +95,8 @@ services:
       # So that Traefik can listen to the Docker events
       - /var/run/docker.sock:/var/run/docker.sock
 ```
-Traefik [tracks][traefik-renewal] manages the expiry date of ACME certificates
--- the default is 90 days with renewals at 30 days before expiry.
+Traefik [manages][traefik-renewal] the expiry date of ACME certificates -- the
+default is 90 days with renewals at 30 days before expiry.
 
 #### Deployment
 
