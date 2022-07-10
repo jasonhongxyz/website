@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-07-09T21:17:59-05:00</updated><id>/feed.xml</id><title type="html">Jason Hong</title><subtitle>:)
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-07-09T22:13:47-05:00</updated><id>/feed.xml</id><title type="html">Jason Hong</title><subtitle>:)
 </subtitle><author><name>Jason Hong</name><email>jason@jasonhong.xyz</email></author><entry><title type="html">Jekyll, Docker Compose, and CircleCI</title><link href="/blog/2022/07/01/on-jekyll-jenkins-docker.html" rel="alternate" type="text/html" title="Jekyll, Docker Compose, and CircleCI" /><published>2022-07-01T19:38:29-05:00</published><updated>2022-07-01T19:38:29-05:00</updated><id>/blog/2022/07/01/on-jekyll-jenkins-docker</id><content type="html" xml:base="/blog/2022/07/01/on-jekyll-jenkins-docker.html"><![CDATA[<p>I need an easier, faster, better way to maintain my site.</p>
 
 <h3 id="the-before">The “Before”</h3>
@@ -57,7 +57,7 @@ from Jekyll into the correct folder.</p>
       <span class="na">restart</span><span class="pi">:</span> <span class="s">always</span>
 </code></pre></div></div>
 
-<p>I used <a href="https://doc.traefik.io/traefik/">Traefik Proxy</a> container as my reverse proxy service. The configuration
+<p>I used a <a href="https://doc.traefik.io/traefik/">Traefik Proxy</a> container as my reverse proxy service. The configuration
 for Traefik can be done through its compose entry – I used the following to
 register the domains, and setup LetsEncrypt certs.</p>
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">services</span><span class="pi">:</span>
@@ -74,7 +74,7 @@ register the domains, and setup LetsEncrypt certs.</p>
       <span class="pi">-</span> <span class="s2">"</span><span class="s">--entrypoints.web.http.redirections.entrypoint.scheme=https"</span>
       <span class="pi">-</span> <span class="s2">"</span><span class="s">--certificatesresolvers.myresolver.acme.httpchallenge=true"</span>
       <span class="pi">-</span> <span class="s2">"</span><span class="s">--certificatesresolvers.myresolver.acme.httpchallenge.entrypoint=web"</span>
-      <span class="c1"># Comment to use production LetsEncrypt env</span>
+      <span class="c1"># Comment to use production LetsEncrypt environment</span>
       <span class="c1">#- "--certificatesresolvers.myresolver.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"</span>
       <span class="pi">-</span> <span class="s2">"</span><span class="s">--certificatesresolvers.myresolver.acme.email=jasonhong0810@gmail.com"</span>
       <span class="pi">-</span> <span class="s2">"</span><span class="s">--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"</span>
@@ -88,8 +88,8 @@ register the domains, and setup LetsEncrypt certs.</p>
       <span class="c1"># So that Traefik can listen to the Docker events</span>
       <span class="pi">-</span> <span class="s">/var/run/docker.sock:/var/run/docker.sock</span>
 </code></pre></div></div>
-<p>Traefik <a href="https://doc.traefik.io/traefik/https/acme/#automatic-renewals">tracks</a> manages the expiry date of ACME certificates
-– the default is 90 days with renewals at 30 days before expiry.</p>
+<p>Traefik <a href="https://doc.traefik.io/traefik/https/acme/#automatic-renewals">manages</a> the expiry date of ACME certificates – the
+default is 90 days with renewals at 30 days before expiry.</p>
 
 <h4 id="deployment">Deployment</h4>
 
