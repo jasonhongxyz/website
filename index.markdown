@@ -8,7 +8,7 @@ layout: page
 I'm a software engineer [@Walmart](https://twitter.com/Walmarttech), 
 on the Technology Reliability Engineering (TRE) team.
 
-I'm interested in operating systems, security, and image classification.
+I like writing clean and effective code to solve real-world puzzles.
 
 Boston University CS '21. Formerly BU BIL.
 

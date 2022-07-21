@@ -85,10 +85,12 @@ deploy, and was pretty portable.</li>
   <li><a href="https://circleci.com/">Circle CI</a>: I wanted something that I can <code class="language-plaintext highlighter-rouge">git push</code>, and
 everything is deployed automatically. I initially set up a Jenkins container
 on the same VPS – it worked, but I found Circle CI to be easier to use.</li>
+  <li><a href="https://updown.io/">Updown.io</a>: Simple uptime monitoring. I want a status page for all
+my subdomains at <code class="language-plaintext highlighter-rouge">status.jasonhong.xyz</code>.</li>
 </ul>
 
-<p>With these three tools, I shouldn’t ever have to start <em>completely</em> from
-scratch again.</p>
+<p>With these tools, I shouldn’t ever have to start <em>completely</em> from scratch
+again.</p>
 
 <h3 id="the-workstream">The Workstream</h3>
 
@@ -115,9 +117,9 @@ from Jekyll into the correct folder.</p>
       <span class="na">restart</span><span class="pi">:</span> <span class="s">always</span>
 </code></pre></div></div>
 
-<p>I used a <a href="https://doc.traefik.io/traefik/">Traefik Proxy</a> container as my reverse proxy service. The configuration
-for Traefik can be done through its compose entry – I used the following to
-register the domains, and setup LetsEncrypt certs.</p>
+<p>I used a <a href="https://doc.traefik.io/traefik/">Traefik Proxy</a> container as my reverse proxy service.
+The configuration for Traefik can be done through its compose entry – I used
+the following to register the domains, and setup LetsEncrypt certs.</p>
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">services</span><span class="pi">:</span>
   <span class="na">reverse-proxy</span><span class="pi">:</span>
     <span class="na">image</span><span class="pi">:</span> <span class="s">traefik:latest</span>

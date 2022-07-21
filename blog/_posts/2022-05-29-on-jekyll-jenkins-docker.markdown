@@ -32,9 +32,11 @@ Some choices I made and why:
 - [Circle CI][circleci]: I wanted something that I can `git push`, and
   everything is deployed automatically. I initially set up a Jenkins container
   on the same VPS -- it worked, but I found Circle CI to be easier to use.
+- [Updown.io][updownio]: Simple uptime monitoring. I want a status page for all
+  my subdomains at `status.jasonhong.xyz`.
 
-With these three tools, I shouldn't ever have to start *completely* from
-scratch again.
+With these tools, I shouldn't ever have to start *completely* from scratch
+again.
 
 ### The Workstream
 
@@ -63,9 +65,9 @@ services:
       restart: always
 ```
 
-I used a [Traefik Proxy][traefik-proxy] container as my reverse proxy service. The configuration
-for Traefik can be done through its compose entry -- I used the following to
-register the domains, and setup LetsEncrypt certs.
+I used a [Traefik Proxy][traefik-proxy] container as my reverse proxy service.
+The configuration for Traefik can be done through its compose entry -- I used
+the following to register the domains, and setup LetsEncrypt certs.
 ```yaml
 services:
   reverse-proxy:
@@ -120,5 +122,6 @@ And just like that... my site is updated. :)
 [docker]: https://docs.docker.com/
 [compose]: https://docs.docker.com/compose/
 [circleci]: https://circleci.com/
+[updownio]: https://updown.io/
 [traefik-proxy]: https://doc.traefik.io/traefik/
 [traefik-renewal]: https://doc.traefik.io/traefik/https/acme/#automatic-renewals
