@@ -18,8 +18,8 @@ what I'm working on.
 For more of what I'm up to, check out my [now](https://jasonhong.xyz/now.html) page.
 
 ---
-In my free time, I click heads on [Twitch](https://twitch.tv/jasonhongxyz) 
-and read.
+In my free time, I click heads on [Twitch](https://twitch.tv/jasonhongxyz) and
+[read](https://jasonhong.xyz/reading.html).
 
 Feel free to read my [blog](https://jasonhong.xyz/blog), check out my 
 [projects](https://jasonhong.xyz/projects), or see my [CV](assets/resume.pdf).
