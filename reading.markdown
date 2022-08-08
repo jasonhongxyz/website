@@ -8,7 +8,7 @@ This page is for what I'm reading. A mixture of tech and culture, no real rhyme 
 
   1. [Introduction to Apple Silicon](https://github.com/AsahiLinux/docs/wiki/Introduction-to-Apple-Silicon) - Asahi Linux
   1. [Technical Reasons To Choose FreeBSD Over Linux](https://unixsheikh.com/articles/technical-reasons-to-choose-freebsd-over-linux.html) - Unix Sheikh
-  1. [The Case of the Fake IMDB Credits](https://peabee.substack.com/p/16-the-case-of-fake-imdb-credits)
+  1. [The Case of the Fake IMDB Credits](https://peabee.substack.com/p/16-the-case-of-fake-imdb-credits) - Pea Bee
 
 <img src="/assets/catjam.gif" alt="catjam" width="32">
 
