@@ -4,9 +4,11 @@ title: Readings
 ---
 
 # What I'm Reading
-This page is for what I'm reading.
+This page is for what I'm reading. A mixture of tech and culture, no real rhyme or reason here.
 
   1. [Introduction to Apple Silicon](https://github.com/AsahiLinux/docs/wiki/Introduction-to-Apple-Silicon) - Asahi Linux
+  1. [Technical Reasons To Choose FreeBSD Over Linux](https://unixsheikh.com/articles/technical-reasons-to-choose-freebsd-over-linux.html) - Unix Sheikh
+  1. [The Case of the Fake IMDB Credits](https://peabee.substack.com/p/16-the-case-of-fake-imdb-credits)
 
 <img src="/assets/catjam.gif" alt="catjam" width="32">
 
@@ -25,4 +27,4 @@ This page is for what I'm reading.
   1. [Designing the Characters of 'Cowboy Bebop'](https://animationobsessive.substack.com/p/designing-the-characters-of-cowboy) - Animation Obsessive
   1. [A toy remote login server](https://jvns.ca/blog/2022/07/28/toy-remote-login-server/) - Julia Evans
   1. [What they don't teach you about sockets](https://macoy.me/blog/programming/Sockets) - Macoy Madson
-  1. [How Computers Boot Up](https://manybutfinite.com/post/how-computers-boot-up/)
+  1. [How Computers Boot Up](https://manybutfinite.com/post/how-computers-boot-up/) - Gustavo Duarte
