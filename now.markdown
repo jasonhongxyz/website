@@ -7,9 +7,7 @@ title: Now
 This page is for what I'm up to now. 
 
 ## Currently...
-
-🔭 ~ I'm working on improving this site! Check out my [blogpost][new-website]
-on how. Grokking vi.
+🔭 ~ I'm working on improving this site! Check out my [blogpost][new-website] on how.
 
 🌱 ~ I'm learning about Linux (on Apple Silicon).
 
@@ -17,7 +15,7 @@ on how. Grokking vi.
 
 📺 ~ I'm watching Westworld. These violent delights have violent ends.
 
-👾 ~ I'm playing VALORANT. Currently Platinum 2.
+👾 ~ I'm playing VALORANT. (Platinum 2)
 
 <!-- <img src="/assets/meow_code.gif" alt="meow_code" width="32"> -->
 

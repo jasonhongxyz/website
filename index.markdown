@@ -25,3 +25,5 @@ Feel free to read my [blog](https://jasonhong.xyz/blog), check out my
 [projects](https://jasonhong.xyz/projects), or see my [CV](assets/resume.pdf).
 
 ---
+To contact me, you can email [jason@jasonhong.xyz](mailto:jason@jasonhong.xyz).
+
