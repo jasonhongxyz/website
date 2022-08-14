@@ -24,3 +24,4 @@ In my free time, I click heads on [Twitch](https://twitch.tv/jasonhongxyz) and
 Feel free to read my [blog](https://jasonhong.xyz/blog), check out my 
 [projects](https://jasonhong.xyz/projects), or see my [CV](assets/resume.pdf).
 
+---

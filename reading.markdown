@@ -9,6 +9,9 @@ This page is for what I'm reading. A mixture of tech and culture, no real rhyme 
   1. [Introduction to Apple Silicon](https://github.com/AsahiLinux/docs/wiki/Introduction-to-Apple-Silicon) - Asahi Linux
   1. [Technical Reasons To Choose FreeBSD Over Linux](https://unixsheikh.com/articles/technical-reasons-to-choose-freebsd-over-linux.html) - Unix Sheikh
   1. [The Case of the Fake IMDB Credits](https://peabee.substack.com/p/16-the-case-of-fake-imdb-credits) - Pea Bee
+  1. [The Story of Mel, a Real Programmer](https://www.cs.utah.edu/~elb/folklore/mel.html) - Ed Nather, USENET 1983
+  1. [Things I Won't Work With: Dioxygen Difluoride](https://www.science.org/content/blog-post/things-i-won-t-work-dioxygen-difluoride) - By Derek Lowe
+  1. [The TTY demystified](https://www.linusakesson.net/programming/tty/) - Linus Åkesson
 
 <img src="/assets/catjam.gif" alt="catjam" width="32">
 

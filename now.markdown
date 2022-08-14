@@ -19,7 +19,7 @@ on how. Grokking vi.
 
 👾 ~ I'm playing VALORANT. Currently Platinum 2.
 
-<img src="/assets/meow_code.gif" alt="meow_code" width="32">
+<!-- <img src="/assets/meow_code.gif" alt="meow_code" width="32"> -->
 
 [new-website]: https://jasonhong.xyz/blog/2022/07/01/on-jekyll-jenkins-docker.html
 
