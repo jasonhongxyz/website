@@ -15,7 +15,7 @@ This page is for what I'm up to now.
 
 📺 ~ I'm watching Westworld. These violent delights have violent ends.
 
-👾 ~ I'm playing VALORANT. (Platinum 2)
+👾 ~ I'm playing VALORANT. (Platinum 3)
 
 <!-- <img src="/assets/meow_code.gif" alt="meow_code" width="32"> -->
 
