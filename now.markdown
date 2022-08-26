@@ -7,8 +7,7 @@ title: Now
 This page is for what I'm up to now. 
 
 ## Currently...
-🔭 ~ I'm learning about Neovim plugins -- blogpost coming soon about my journey
-and what I make.
+🔭 ~ I'm learning about Neovim plugins -- blogpost coming soon.
 
 🌱 ~ I'm learning about Linux on Apple Silicon.
 
