@@ -11,9 +11,9 @@ This page is for what I'm up to now.
 
 🌱 ~ I'm learning about Linux on Apple Silicon.
 
-📖 ~ I'm reading Why We Sleep by Matthew Walker.
+📖 ~ I'm reading The Murder of Roger Ackroyd by Agatha Christie.
 
-📺 ~ I'm watching Westworld. These violent delights have violent ends.
+📺 ~ I'm watching House of Dragons.
 
 👾 ~ I'm playing VALORANT. (Diamond 2)
 
