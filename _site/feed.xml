@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-09-12T21:01:00-05:00</updated><id>/feed.xml</id><title type="html">Jason Hong</title><subtitle>:)
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-09-13T10:29:16-05:00</updated><id>/feed.xml</id><title type="html">Jason Hong</title><subtitle>:)
 </subtitle><author><name>Jason Hong</name><email>jason@jasonhong.xyz</email></author><entry><title type="html">Machine Art: Stable Diffusion (on Apple Silicon)</title><link href="/blog/2022/09/03/stable-diffusion.html" rel="alternate" type="text/html" title="Machine Art: Stable Diffusion (on Apple Silicon)" /><published>2022-09-03T18:38:29-05:00</published><updated>2022-09-03T18:38:29-05:00</updated><id>/blog/2022/09/03/stable-diffusion</id><content type="html" xml:base="/blog/2022/09/03/stable-diffusion.html"><![CDATA[<p>Testing Stable Diffusion on Apple Silicon.</p>
 
 <h3 id="background">Background</h3>
@@ -60,10 +60,10 @@ for better seeds.</p>
 
 <p><img src="/assets/2022-09-03/0004.png" alt="cityscape" /></p>
 
-<p>The first is the original generated from <code class="language-plaintext highlighter-rouge">txt2img</code>, the following were
-alternatives/improvements from <code class="language-plaintext highlighter-rouge">img2img</code>.</p>
+<p>The following is the original generated from <code class="language-plaintext highlighter-rouge">txt2img</code>, the rest are
+alternatives/improvements using <code class="language-plaintext highlighter-rouge">img2img</code>.</p>
 
-<p><img src="/assets/2022-09-03/grid-0001.png" alt="cyborg" /></p>
+<p><img src="/assets/2022-09-03/grid-0012.png" alt="cyborg" /></p>
 
 <p><img src="/assets/2022-09-03/0012.png" alt="cyborg1" /></p>
 

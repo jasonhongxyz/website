@@ -66,10 +66,10 @@ for better seeds.
 
 <img src="/assets/2022-09-03/0004.png" alt="cityscape">
 
-The first is the original generated from `txt2img`, the following were
-alternatives/improvements from `img2img`.
+The following is the original generated from `txt2img`, the rest are
+alternatives/improvements using `img2img`.
 
-<img src="/assets/2022-09-03/grid-0001.png" alt="cyborg">
+<img src="/assets/2022-09-03/grid-0012.png" alt="cyborg">
 
 <img src="/assets/2022-09-03/0012.png" alt="cyborg1">
 
