@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Machine Art: Stable Diffusion (on Apple Silicon) | Jason Hong</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Machine Art: Stable Diffusion (on Apple Silicon)" />
+<meta name="author" content="Jason Hong" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Testing Stable Diffusion on Apple Silicon." />
+<meta property="og:description" content="Testing Stable Diffusion on Apple Silicon." />
+<meta property="og:site_name" content="Jason Hong" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-03T18:38:29-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Machine Art: Stable Diffusion (on Apple Silicon)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jason Hong"},"dateModified":"2022-09-03T18:38:29-05:00","datePublished":"2022-09-03T18:38:29-05:00","description":"Testing Stable Diffusion on Apple Silicon.","headline":"Machine Art: Stable Diffusion (on Apple Silicon)","mainEntityOfPage":{"@type":"WebPage","@id":"/blog/2022/09/03/stable-diffusion.html"},"url":"/blog/2022/09/03/stable-diffusion.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Jason Hong" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#6dd55b">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Jason Hong</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/now.html">Now</a><a class="page-link" href="/reading.html">Readings</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Machine Art: Stable Diffusion (on Apple Silicon)</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2022-09-03T18:38:29-05:00" itemprop="datePublished">
+        Sep 3, 2022
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Testing Stable Diffusion on Apple Silicon.</p>
+
+<h3 id="background">Background</h3>
+<p>Stable Diffusion is a text-to-image diffusion model that can create an AI image
+from a given prompt. I wanted to test it on my M1 Macbook.</p>
+
+<h3 id="setup">Setup</h3>
+<p>Setup was fairly simple. I followed the instructions on Lincoln Stein’s
+<a href="https://github.com/lstein/stable-diffusion">fork</a> of Stable Diffusion for M1
+Macs, and despite all the disclaimers, the process worked like a charm. There
+is rapid development across Stable Diffusion and pytorch nightly, so my
+experience could be attributed to lucky timing, YMMV.</p>
+
+<p>I do experience some of the bugs already reported as issues – occasionally my
+generated output is an black square.</p>
+
+<p>Getting any output image was slow since I couldn’t take advantage of CUDA
+cores, and was running everything off CPU. I am lucky enough to have a friend
+with a beefy Nvidia GPU though – I’ve attached some of the interesting images
+generated at the end.</p>
+
+<h3 id="photos">Photos</h3>
+<p>“ocean”. First photo was created with only one pass.</p>
+
+<p><img src="/assets/2022-09-03/00000.png" alt="ocean1" /></p>
+
+<p><img src="/assets/2022-09-03/00001.png" alt="ocean2" /></p>
+
+<p><img src="/assets/2022-09-03/00002.png" alt="ocean3" /></p>
+
+<p>“game of thrones anime”</p>
+
+<p><img src="/assets/2022-09-03/00021.png" alt="game-of-throne" /></p>
+
+<p>“thanos eating popcorn”</p>
+
+<p><img src="/assets/2022-09-03/00032.png" alt="thanos-popcorn" /></p>
+
+<p>“dog king”</p>
+
+<p><img src="/assets/2022-09-03/00029.png" alt="dog-king" /></p>
+
+<p>“cat in armor high def”</p>
+
+<p><img src="/assets/2022-09-03/00025.png" alt="cat-knight" /></p>
+
+<p>I also tried out the <code class="language-plaintext highlighter-rouge">img2img</code> command, turning the last photo into a “drawing”.</p>
+
+<p><img src="/assets/2022-09-03/00003.png" alt="cat-knight-drawing" /></p>
+
+<p>And, a profile photo for myself.</p>
+
+<p><img src="/assets/2022-09-03/grid-0069.png" alt="me" /></p>
+
+<h3 id="more-photos">More Photos</h3>
+<p>These photos were generated with my friend’s desktop – he has an AMD 5950x,
+RTX 3080 FE. <em>Super</em> fast – much easier to iterate on good prompts and search
+for better seeds.</p>
+
+<p><img src="/assets/2022-09-03/0004.png" alt="cityscape" /></p>
+
+<p>The first is the original generated from <code class="language-plaintext highlighter-rouge">txt2img</code>, the following were
+alternatives/improvements from <code class="language-plaintext highlighter-rouge">img2img</code>.</p>
+
+<p><img src="/assets/2022-09-03/grid-0001.png" alt="cyborg" /></p>
+
+<p><img src="/assets/2022-09-03/0012.png" alt="cyborg1" /></p>
+
+<p><img src="/assets/2022-09-03/grid-0004.png" alt="cyborg2" /></p>
+
+<p><img src="/assets/nicolas_cage_party.gif" alt="nicolas_cage_party" width="32" /></p>
+
+  </div><a class="u-url" href="/blog/2022/09/03/stable-diffusion.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li class="p-name">Jason Hong</li>
+          <li><a class="u-email" href="mailto:jason@jasonhong.xyz">jason@jasonhong.xyz</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>:)
+</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jasonhongxyz" target="_blank" title="jasonhongxyz"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/jasonhongcs" target="_blank" title="jasonhongcs"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

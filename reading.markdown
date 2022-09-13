@@ -7,7 +7,7 @@ title: Readings
 This page is for what I'm reading. A mixture of tech and culture, no real rhyme or reason here.
 
   1. [Why Birds Changed Their Tune During the Pandemic](https://www.atlasobscura.com/articles/bird-songs-changed-pandemic) - Shoshi Parks, Atlas Obscura
-  1. [The Forty-Year Programmer](https://codefol.io/posts/the-forty-year-programmer/) - CodeFolio
+  1. [The Forty-Year Programmer](https://codefol.io/posts/the-forty-year-programmer/) - Noah Gibbs
 
 <img src="/assets/catjam.gif" alt="catjam" width="32">
 

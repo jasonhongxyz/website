@@ -11,9 +11,9 @@ This page is for what I'm up to now.
 
 🌱 ~ I'm learning about Linux on Apple Silicon.
 
-📖 ~ I'm reading The Murder of Roger Ackroyd by Agatha Christie.
+📖 ~ I'm reading _The Murder of Roger Ackroyd_ by Agatha Christie.
 
-📺 ~ I'm watching House of Dragons.
+📺 ~ I'm watching _House of the Dragon_.
 
 👾 ~ I'm playing VALORANT. (Diamond 2)
 

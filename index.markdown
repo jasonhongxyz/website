@@ -8,7 +8,7 @@ layout: page
 I'm a software engineer [@Walmart](https://twitter.com/Walmarttech), 
 on the Technology Reliability Engineering (TRE) team.
 
-I like writing clean and effective code to solve real-world puzzles.
+I like writing clean and effective code to solve real-world problems.
 
 Boston University CS '21. Formerly BU BIL.
 
