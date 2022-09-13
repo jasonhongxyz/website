@@ -6,3 +6,6 @@ category: blog
 ---
 
 Hello, World! This is my new blog.
+
+<img src="/assets/nicolas_cage_party.gif" alt="nicolas_cage_party" width="32">
+

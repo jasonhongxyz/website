@@ -26,7 +26,7 @@ cores, and was running everything off CPU. I am lucky enough to have a friend
 with a beefy Nvidia GPU though -- I've attached some of the interesting images
 generated at the end.
 
-### Photos
+### Images
 "ocean". First photo was created with only one pass.
 
 <img src="/assets/2022-09-03/00000.png" alt="ocean1">
@@ -59,7 +59,7 @@ And, a profile photo for myself.
 
 <img src="/assets/2022-09-03/grid-0069.png" alt="me">
 
-### More Photos
+### More Images
 These photos were generated with my friend's desktop -- he has an AMD 5950x,
 RTX 3080 FE. *Super* fast -- much easier to iterate on good prompts and search
 for better seeds.
