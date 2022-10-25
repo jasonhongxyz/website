@@ -6,8 +6,9 @@ title: Readings
 # What I'm Reading
 This page is for what I'm reading. A mixture of tech and culture, no real rhyme or reason here.
 
-  1. [Why Birds Changed Their Tune During the Pandemic](https://www.atlasobscura.com/articles/bird-songs-changed-pandemic) - Shoshi Parks, Atlas Obscura
-  1. [The Forty-Year Programmer](https://codefol.io/posts/the-forty-year-programmer/) - Noah Gibbs
+  1. [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) - fasterthanlime
+  1. [Never Let Me Go](https://www.goodreads.com/book/show/6334.Never_Let_Me_Go) - Kazuo Ishiguro
+  1. [How X Window Managers Work, And How To Write One](https://jichu4n.com/posts/how-x-window-managers-work-and-how-to-write-one-part-i/) - Chuan Ji
 
 <img src="/assets/catjam.gif" alt="catjam" width="32">
 
@@ -39,3 +40,11 @@ This page is for what I'm reading. A mixture of tech and culture, no real rhyme 
   1. [Raft: Understandable Distributed Consensus](https://thesecretlivesofdata.com/raft/) - The Secret Lives of Data
   1. [Visual Sum of Cubes](https://x.st/visual-sum-of-cubes/) - Harold Cooper
   1. [#17: One kitchen, hundreds of internet restaurants](https://peabee.substack.com/p/17-one-kitchen-hundreds-of-internet) - Pea Bee
+
+#### September
+  1. [Why Birds Changed Their Tune During the Pandemic](https://www.atlasobscura.com/articles/bird-songs-changed-pandemic) - Shoshi Parks, Atlas Obscura
+  1. [The Forty-Year Programmer](https://codefol.io/posts/the-forty-year-programmer/) - Noah Gibbs
+  1. [Redis Explained](https://architecturenotes.co/redis/) - Architecture Notes
+  1. [The Art of Monitoring](https://artofmonitoring.com/) - Book by James Turnbull
+  1. [Why shaving dulls even the sharpest of razors](https://news.mit.edu/2020/why-shaving-dulls-razors-0806) - MIT News
+  1. [Move a running process into a tmux session](https://xai.sh/2020/10/16/Move-running-process-into-tmux-session.html) - Xai.sh

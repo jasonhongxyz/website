@@ -9,11 +9,11 @@ This page is for what I'm up to now.
 ## Currently...
 🔭 ~ I'm learning about Neovim plugins -- blogpost coming soon.
 
-🌱 ~ I'm learning about Linux on Apple Silicon.
+🌱 ~ I'm learning about microservice telemetry and monitoring.
 
 📖 ~ I'm reading _The Murder of Roger Ackroyd_ by Agatha Christie.
 
-📺 ~ I'm watching _House of the Dragon_.
+📺 ~ I'm watching _House of the Dragon_ and _Ramy_.
 
 👾 ~ I'm playing VALORANT. (Diamond 2)
 
