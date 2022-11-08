@@ -7,7 +7,7 @@ title: Now
 This page is for what I'm up to now. 
 
 ## Currently...
-🔭 ~ I'm learning about Neovim plugins -- blogpost coming soon.
+🔭 ~ I'm working on a Neovim plugin -- blogpost coming soon.
 
 🌱 ~ I'm learning about microservice telemetry and monitoring.
 

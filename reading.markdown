@@ -8,7 +8,10 @@ This page is for what I'm reading. A mixture of tech and culture, no real rhyme 
 
   1. [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) - fasterthanlime
   1. [Never Let Me Go](https://www.goodreads.com/book/show/6334.Never_Let_Me_Go) - Kazuo Ishiguro
+  1. [The Jaunt](https://en.wikipedia.org/wiki/The_Jaunt) - Stephen King
   1. [How X Window Managers Work, And How To Write One](https://jichu4n.com/posts/how-x-window-managers-work-and-how-to-write-one-part-i/) - Chuan Ji
+  1. [How to communicate effectively as a developer](https://www.karlsutt.com/articles/communicating-effectively-as-a-developer/) - Karl Sutt
+  1. [The Sparrow](https://www.goodreads.com/book/show/334176.The_Sparrow) - Mary Doria Russell
 
 <img src="/assets/catjam.gif" alt="catjam" width="32">
 
