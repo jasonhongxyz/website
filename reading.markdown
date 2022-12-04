@@ -6,12 +6,7 @@ title: Readings
 # What I'm Reading
 This page is for what I'm reading. A mixture of tech and culture, no real rhyme or reason here.
 
-  1. [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) - fasterthanlime
-  1. [Never Let Me Go](https://www.goodreads.com/book/show/6334.Never_Let_Me_Go) - Kazuo Ishiguro
-  1. [The Jaunt](https://en.wikipedia.org/wiki/The_Jaunt) - Stephen King
-  1. [How X Window Managers Work, And How To Write One](https://jichu4n.com/posts/how-x-window-managers-work-and-how-to-write-one-part-i/) - Chuan Ji
-  1. [How to communicate effectively as a developer](https://www.karlsutt.com/articles/communicating-effectively-as-a-developer/) - Karl Sutt
-  1. [The Sparrow](https://www.goodreads.com/book/show/334176.The_Sparrow) - Mary Doria Russell
+  1. [Hyperion](https://en.wikipedia.org/wiki/Hyperion_Cantos) - Dan Simmons
 
 <img src="/assets/catjam.gif" alt="catjam" width="32">
 
@@ -51,3 +46,16 @@ This page is for what I'm reading. A mixture of tech and culture, no real rhyme 
   1. [The Art of Monitoring](https://artofmonitoring.com/) - Book by James Turnbull
   1. [Why shaving dulls even the sharpest of razors](https://news.mit.edu/2020/why-shaving-dulls-razors-0806) - MIT News
   1. [Move a running process into a tmux session](https://xai.sh/2020/10/16/Move-running-process-into-tmux-session.html) - Xai.sh
+
+#### October
+  1. [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) - fasterthanlime
+  1. [Never Let Me Go](https://www.goodreads.com/book/show/6334.Never_Let_Me_Go) - Kazuo Ishiguro
+  1. [The Jaunt](https://en.wikipedia.org/wiki/The_Jaunt) - Stephen King
+  1. [How X Window Managers Work, And How To Write One](https://jichu4n.com/posts/how-x-window-managers-work-and-how-to-write-one-part-i/) - Chuan Ji
+  1. [How to communicate effectively as a developer](https://www.karlsutt.com/articles/communicating-effectively-as-a-developer/) - Karl Sutt
+  1. [The Sparrow](https://www.goodreads.com/book/show/334176.The_Sparrow) - Mary Doria Russell
+
+#### November
+  1. [Making a Go program run 1.7x faster with a one character change](https://hmarr.com/blog/go-allocation-hunting/) - Harry Marr
+  1. [The Go Programming Language](https://www.gopl.io/) - Donovan & Kernighan
+  1. [The Database Cookbook For Developers](https://sqlfordevs.com/ebook) - Tobias Petry
