@@ -6,19 +6,21 @@ title: Readings
 # What I'm Reading
 This page is for what I'm reading. A mixture of tech and culture, no real rhyme or reason here.
 
-  1. [Hyperion](https://en.wikipedia.org/wiki/Hyperion_Cantos) - Dan Simmons
+  1. [Black Hawk Down](https://www.goodreads.com/en/book/show/55403.Black_Hawk_Down) - Mark Bowden
 
 <img src="/assets/catjam.gif" alt="catjam" width="32">
 
 ## Archive
-### 2022
-#### June
+<details markdown="1">
+<summary>2022</summary>
+
+- [6] June
   1. [An interactive mechanical watch visualization](https://ciechanow.ski/mechanical-watch/) - Bartosz
      Ciechanowski
   1. [Your API is Bad](https://leanpub.com/yourapiisbad/read) - Matthew Turland
   1. [They're Made out of Meat](https://www.mit.edu/people/dpolicar/writing/prose/text/thinkingMeat.html) - Terry Bisson, 1991
 
-#### July
+- [7] July
   1. [How the Higgs Boson Ruined Peter Higgs’s Life](https://www.scientificamerican.com/article/how-the-higgs-boson-ruined-peter-higgss-life/) -  Clara Moskowitz, Scientific American
   1. [Ignition!](https://library.sciencemadness.org/library/books/ignition.pdf) - John D. Clark, 1972
   1. [Giving a Sh\*t as a Service](https://allenpike.com/2022/giving-a-shit) - Allen Pike
@@ -27,7 +29,7 @@ This page is for what I'm reading. A mixture of tech and culture, no real rhyme 
   1. [What they don't teach you about sockets](https://macoy.me/blog/programming/Sockets) - Macoy Madson
   1. [How Computers Boot Up](https://manybutfinite.com/post/how-computers-boot-up/) - Gustavo Duarte
 
-#### August
+- [8] August
   1. [Introduction to Apple Silicon](https://github.com/AsahiLinux/docs/wiki/Introduction-to-Apple-Silicon) - Asahi Linux
   1. [Technical Reasons To Choose FreeBSD Over Linux](https://unixsheikh.com/articles/technical-reasons-to-choose-freebsd-over-linux.html) - Unix Sheikh
   1. [The Case of the Fake IMDB Credits](https://peabee.substack.com/p/16-the-case-of-fake-imdb-credits) - Pea Bee
@@ -39,7 +41,7 @@ This page is for what I'm reading. A mixture of tech and culture, no real rhyme 
   1. [Visual Sum of Cubes](https://x.st/visual-sum-of-cubes/) - Harold Cooper
   1. [#17: One kitchen, hundreds of internet restaurants](https://peabee.substack.com/p/17-one-kitchen-hundreds-of-internet) - Pea Bee
 
-#### September
+- [9] September
   1. [Why Birds Changed Their Tune During the Pandemic](https://www.atlasobscura.com/articles/bird-songs-changed-pandemic) - Shoshi Parks, Atlas Obscura
   1. [The Forty-Year Programmer](https://codefol.io/posts/the-forty-year-programmer/) - Noah Gibbs
   1. [Redis Explained](https://architecturenotes.co/redis/) - Architecture Notes
@@ -47,7 +49,7 @@ This page is for what I'm reading. A mixture of tech and culture, no real rhyme 
   1. [Why shaving dulls even the sharpest of razors](https://news.mit.edu/2020/why-shaving-dulls-razors-0806) - MIT News
   1. [Move a running process into a tmux session](https://xai.sh/2020/10/16/Move-running-process-into-tmux-session.html) - Xai.sh
 
-#### October
+- [10] October
   1. [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for) - fasterthanlime
   1. [Never Let Me Go](https://www.goodreads.com/book/show/6334.Never_Let_Me_Go) - Kazuo Ishiguro
   1. [The Jaunt](https://en.wikipedia.org/wiki/The_Jaunt) - Stephen King
@@ -55,7 +57,12 @@ This page is for what I'm reading. A mixture of tech and culture, no real rhyme 
   1. [How to communicate effectively as a developer](https://www.karlsutt.com/articles/communicating-effectively-as-a-developer/) - Karl Sutt
   1. [The Sparrow](https://www.goodreads.com/book/show/334176.The_Sparrow) - Mary Doria Russell
 
-#### November
+- [11] November
   1. [Making a Go program run 1.7x faster with a one character change](https://hmarr.com/blog/go-allocation-hunting/) - Harry Marr
   1. [The Go Programming Language](https://www.gopl.io/) - Donovan & Kernighan
   1. [The Database Cookbook For Developers](https://sqlfordevs.com/ebook) - Tobias Petry
+
+- [12] December
+  1. [Hyperion](https://en.wikipedia.org/wiki/Hyperion_Cantos) - Dan Simmons
+
+</details>

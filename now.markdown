@@ -10,9 +10,9 @@ title: Now
 
 🌱 ~ I'm learning about microservice telemetry and monitoring.
 
-📖 ~ I'm reading _The Murder of Roger Ackroyd_ by Agatha Christie.
+📖 ~ I'm reading _The Remains of the Day_ by Kazuo Ishiguro, and what's listed [here][readings].
 
-📺 ~ I'm watching _House of the Dragon_ and _Ramy_.
+📺 ~ I'm watching _1883_ and _Ramy_.
 
 👾 ~ I'm playing [Factorio][factorio] and [VALORANT][valorant]. (Diamond 2)
 
@@ -20,4 +20,5 @@ title: Now
 
 [factorio]: https://www.factorio.com/ 
 [valorant]: https://playvalorant.com/en-us/
+[readings]: https://jasonhong.xyz/reading.html
 
