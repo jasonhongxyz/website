@@ -24,7 +24,7 @@ jobs:
           tag: latest
       - add_ssh_keys:
           fingerprints:
-          - "b4:78:c3:4f:8e:fc:d2:87:ae:d6:ce:b2:e7:e0:45:d2"
+          - "21:8d:91:cd:1b:69:af:3e:b1:4a:af:13:24:79:eb:b2"
       - run: |
           ssh-keyscan jasonhong.xyz >> ~/.ssh/known_hosts
           ssh root@jasonhong.xyz \<<'ENDSSH'
