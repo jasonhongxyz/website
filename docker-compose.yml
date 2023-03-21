@@ -38,20 +38,16 @@ services:
     image: jasonhongxyz/blog
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.blog.rule=Host(`jasonhong.xyz`) || Host(`www.jasonhong.xyz`) || Host(`localhost`)"
+      - "traefik.http.routers.blog.rule=Host(`jasonhong.xyz`) || Host(`www.jasonhong.xyz`)" # || Host(`localhost`)"
       - "traefik.http.routers.blog.entrypoints=websecure"
       - "traefik.http.routers.blog.tls.certresolver=myresolver"
     restart: always
 
-  myjenkins:
-    image: jasonhongxyz/myjenkins
-    restart: on-failure
+  tictactoe:
+    image: jasonhongxyz/tictactoe
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.ci.rule=Host(`ci.jasonhong.xyz`) || Host(`www.ci.jasonhong.xyz`) || Host(`ci.localhost`)"
-      - "traefik.http.routers.ci.entrypoints=websecure"
-      - "traefik.http.routers.ci.tls.certresolver=myresolver"
-    volumes:
-      - 'jenkins-data:/var/jenkins_home'
-      - '/var/run/docker.sock:/var/run/docker.sock'
+      - "traefik.http.routers.blog.rule=Host(`tictactoe.jasonhong.xyz`) || Host(`www.tictactoe.jasonhong.xyz`)" # || Host(`localhost`)"
+      - "traefik.http.routers.blog.entrypoints=websecure"
+      - "traefik.http.routers.blog.tls.certresolver=myresolver"
 
