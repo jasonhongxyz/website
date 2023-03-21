@@ -1,10 +1,12 @@
 FROM node:alpine as build-stage
 
-WORKDIR /usr/src/app
 COPY tictactoe/* /usr/src/app/
+WORKDIR /usr/src/app
 RUN npm install
 
 RUN npm run build
+RUN pwd
+RUN ls -l
 
 FROM nginx:alpine
 
