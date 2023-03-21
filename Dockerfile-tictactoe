@@ -4,9 +4,9 @@ COPY tictactoe/* /usr/src/app/
 WORKDIR /usr/src/app
 RUN npm install
 
-RUN npm run build
 RUN pwd
 RUN ls -l
+RUN npm run build
 
 FROM nginx:alpine
 
