@@ -1,9 +1,11 @@
-FROM node:alpine
+FROM node:alpine as build-stage
 
 WORKDIR /usr/src/app
 COPY tictactoe/package*.json ./
 RUN npm install
-COPY tictactoe/. .
-EXPOSE 80
-CMD [ "npm", "start" ]
 
+RUN npm run build
+
+FROM nginx:alpine
+
+COPY --from=build-stage /usr/src/app/build/ /usr/share/nginx/html
