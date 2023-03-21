@@ -16,7 +16,7 @@ jobs:
           docker-password: DOCKER_PASS 
           docker-username: DOCKER_USER 
       - docker/build:
-          dockerfile: docker/Dockerfile-blog 
+          dockerfile: Dockerfile-blog 
           image: jasonhongxyz/blog
           tag: latest
       - docker/push:
@@ -46,7 +46,7 @@ jobs:
           docker-password: DOCKER_PASS 
           docker-username: DOCKER_USER 
       - docker/build:
-          dockerfile: docker/Dockerfile-tictactoe
+          dockerfile: Dockerfile-tictactoe
           image: jasonhongxyz/tictactoe
           tag: latest
       - docker/push:
