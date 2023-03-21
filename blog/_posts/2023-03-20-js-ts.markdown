@@ -5,13 +5,15 @@ date:   2023-03-20 18:38:29 -0500
 category: blog
 ---
 
+Learning Typescript, one project at a time.
+
 I've been working as a backend engineer for some time now, both in school and
 professionally, and never really delved into the world of Javascript/Typescript
 programming. I say it's about time...
 
 Here is a list of projects I create with JS/TS... this page will be
-periodically updated as I improve :)
+periodically updated as I improve. :)
 
 <img src="/assets/nicolas_cage_party.gif" alt="nicolas_cage_party" width="32">
 
-- Tic Tac Toe (https://tictactoe.jasonhong.xyz)
+- [Tic Tac Toe](https://tictactoe.jasonhong.xyz)

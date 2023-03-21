@@ -50,4 +50,5 @@ services:
       - "traefik.http.routers.tictactoe.rule=Host(`tictactoe.jasonhong.xyz`) || Host(`www.tictactoe.jasonhong.xyz`)" # || Host(`localhost`)"
       - "traefik.http.routers.tictactoe.entrypoints=websecure"
       - "traefik.http.routers.tictactoe.tls.certresolver=myresolver"
+    restart: always
 

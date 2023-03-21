@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-03-20T22:17:27-05:00</updated><id>/feed.xml</id><title type="html">Jason Hong</title><subtitle>:)
-</subtitle><author><name>Jason Hong</name><email>jason@jasonhong.xyz</email></author><entry><title type="html">Learning JS/TS by Doing</title><link href="/blog/2023/03/20/js-ts.html" rel="alternate" type="text/html" title="Learning JS/TS by Doing" /><published>2023-03-20T18:38:29-05:00</published><updated>2023-03-20T18:38:29-05:00</updated><id>/blog/2023/03/20/js-ts</id><content type="html" xml:base="/blog/2023/03/20/js-ts.html"><![CDATA[<p>I’ve been working as a backend engineer for some time now, both in school and
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-03-21T00:02:30-05:00</updated><id>/feed.xml</id><title type="html">Jason Hong</title><subtitle>:)
+</subtitle><author><name>Jason Hong</name><email>jason@jasonhong.xyz</email></author><entry><title type="html">Learning JS/TS by Doing</title><link href="/blog/2023/03/20/js-ts.html" rel="alternate" type="text/html" title="Learning JS/TS by Doing" /><published>2023-03-20T18:38:29-05:00</published><updated>2023-03-20T18:38:29-05:00</updated><id>/blog/2023/03/20/js-ts</id><content type="html" xml:base="/blog/2023/03/20/js-ts.html"><![CDATA[<p>Learning Typescript, one project at a time.</p>
+
+<p>I’ve been working as a backend engineer for some time now, both in school and
 professionally, and never really delved into the world of Javascript/Typescript
 programming. I say it’s about time…</p>
 
 <p>Here is a list of projects I create with JS/TS… this page will be
-periodically updated as I improve :)</p>
+periodically updated as I improve. :)</p>
 
 <p><img src="/assets/nicolas_cage_party.gif" alt="nicolas_cage_party" width="32" /></p>
 
 <ul>
-  <li>Tic Tac Toe (https://tictactoe.jasonhong.xyz)</li>
-</ul>]]></content><author><name>Jason Hong</name><email>jason@jasonhong.xyz</email></author><category term="blog" /><summary type="html"><![CDATA[I’ve been working as a backend engineer for some time now, both in school and professionally, and never really delved into the world of Javascript/Typescript programming. I say it’s about time…]]></summary></entry><entry><title type="html">Machine Art: Stable Diffusion (on Apple Silicon)</title><link href="/blog/2022/09/03/stable-diffusion.html" rel="alternate" type="text/html" title="Machine Art: Stable Diffusion (on Apple Silicon)" /><published>2022-09-03T18:38:29-05:00</published><updated>2022-09-03T18:38:29-05:00</updated><id>/blog/2022/09/03/stable-diffusion</id><content type="html" xml:base="/blog/2022/09/03/stable-diffusion.html"><![CDATA[<p>Testing Stable Diffusion on Apple Silicon.</p>
+  <li><a href="https://tictactoe.jasonhong.xyz">Tic Tac Toe</a></li>
+</ul>]]></content><author><name>Jason Hong</name><email>jason@jasonhong.xyz</email></author><category term="blog" /><summary type="html"><![CDATA[Learning Typescript, one project at a time.]]></summary></entry><entry><title type="html">Machine Art: Stable Diffusion (on Apple Silicon)</title><link href="/blog/2022/09/03/stable-diffusion.html" rel="alternate" type="text/html" title="Machine Art: Stable Diffusion (on Apple Silicon)" /><published>2022-09-03T18:38:29-05:00</published><updated>2022-09-03T18:38:29-05:00</updated><id>/blog/2022/09/03/stable-diffusion</id><content type="html" xml:base="/blog/2022/09/03/stable-diffusion.html"><![CDATA[<p>Testing Stable Diffusion on Apple Silicon.</p>
 
 <h3 id="background">Background</h3>
 <p>Stable Diffusion is a text-to-image diffusion model that can create an AI image
