@@ -1,9 +1,9 @@
 FROM node:alpine
 
 WORKDIR /usr/src/app
-COPY package*.json ./
+COPY tictactoe/package*.json ./
 RUN npm install
-COPY . .
+COPY tictactoe/. .
 EXPOSE 8080
 CMD [ "npm", "start" ]
 
