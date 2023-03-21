@@ -1,7 +1,7 @@
 FROM node:alpine as build-stage
 
 WORKDIR /usr/src/app
-COPY tictactoe/package*.json ./
+COPY tictactoe/* ./
 RUN npm install
 
 RUN npm run build
