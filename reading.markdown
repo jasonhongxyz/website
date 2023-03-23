@@ -6,11 +6,20 @@ title: Readings
 # What I'm Reading
 This page is for what I'm reading. A mixture of tech and culture, no real rhyme or reason here.
 
-  1. [Black Hawk Down](https://www.goodreads.com/en/book/show/55403.Black_Hawk_Down) - Mark Bowden
+1. [Email](https://explained-from-first-principles.com/email/) - Explained from First Principles
 
 <img src="/assets/catjam.gif" alt="catjam" width="32">
 
 ## Archive
+<details markdown="1">
+<summary>2023</summary>
+- [1-2] January - February
+  1. [Black Hawk Down](https://www.goodreads.com/en/book/show/55403.Black_Hawk_Down) - Mark Bowden
+  1. [A Guide to the Go Garbage Collector](https://tip.golang.org/doc/gc-guide) - Golang Tips
+  1. [Serving Netflix Video Traffic at 400Gb/s and Beyond](https://nabstreamingsummit.com/wp-content/uploads/2022/05/2022-Streaming-Summit-Netflix.pdf) - Drew Gallatin, NAB Show
+  1. [In Cambodia, Rats Are Being Trained To Sniff Out Land Mines And Save Lives](https://www.npr.org/sections/parallels/2015/07/31/427112786/in-cambodia-rats-are-being-trained-to-sniff-out-land-mines-and-save-lives) - Michael Sullivan, NPR
+</details>
+
 <details markdown="1">
 <summary>2022</summary>
 
