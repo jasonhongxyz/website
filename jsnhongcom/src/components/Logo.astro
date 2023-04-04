@@ -1,0 +1,14 @@
+---
+import { Image } from "@astrojs/image/components";
+import logo_white from "public/logo-white.png";
+---
+
+<logo>
+  <Image
+    id="logo-id"
+    class="mr-3 h-10 w-10 sm:absolute sm:left-[-7rem] sm:mr-0 sm:h-20 sm:w-20"
+    src={ logo_white }
+    alt="JH logo"
+    loading="eager"
+  />
+</logo>

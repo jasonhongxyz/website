@@ -1,0 +1,17 @@
+---
+import PageLayout from "@/layouts/Base";
+
+const meta = {
+	title: "Now",
+	description: "What I'm Up to Now",
+};
+
+import { Content as ReadingList } from "../pages/posts/readings.md";
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6 prose prose-base prose-cactus prose-th:before:content-none">
+		<h1 class="title">What I'm Reading</h1>
+    <ReadingList />
+	</div>
+</PageLayout>

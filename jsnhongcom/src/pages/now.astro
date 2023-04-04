@@ -1,0 +1,17 @@
+---
+import PageLayout from "@/layouts/Base";
+
+const meta = {
+	title: "Now",
+	description: "What I'm Up to Now",
+};
+
+import { Content as Now }from "../pages/posts/now.md";
+---
+
+<PageLayout meta={meta}>
+	<div class="prose prose-base prose-cactus prose-th:before:content-none">
+		<h1 class="title">What I'm Up to Now</h1>
+    <Now />
+	</div>
+</PageLayout>
