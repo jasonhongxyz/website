@@ -14,6 +14,7 @@ export default defineConfig({
 			wrap: true,
 		},
 	},
+  trailingSlash: 'never',
 	integrations: [
 		mdx({}),
 		tailwind({
