@@ -2,7 +2,7 @@
 title:  "Jekyll, Docker Compose, and CircleCI"
 description: "I need an easier, better way to maintain my site."
 publishDate:   "02 Jul 2022"
-tags: ["ci/cd"]
+tags: ["cicd"]
 ---
 
 ### The "Before"
