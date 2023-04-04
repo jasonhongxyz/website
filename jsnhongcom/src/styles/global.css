@@ -29,7 +29,7 @@
 
 	html body {
 		@apply mx-auto flex h-full max-w-3xl flex-col bg-bgColor px-8 pt-20 font-sans font-normal text-textColor antialiased;
-    font-family: -apple-system;
+    /* font-family: -apple-system; */
 	}
 }
 
