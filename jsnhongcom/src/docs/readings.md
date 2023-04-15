@@ -2,7 +2,7 @@
 title: "Reading List"
 ---
 
-This page is for what I'm reading. 
+This page is for what I'm reading.
 
 A mixture of tech and culture, no real rhyme or reason here.
 
@@ -10,6 +10,7 @@ A mixture of tech and culture, no real rhyme or reason here.
 1. [VALORANT's 128-Tick Servers](https://technology.riotgames.com/news/valorants-128-tick-servers) - Riot Games
 1. [Paving the Road to Vulkan on Asahi Linux](https://asahilinux.org/2023/03/road-to-vulkan/) - Asahi Linux
 1. [Bicycle](https://ciechanow.ski/bicycle/) - Bartosz Ciechanowski
+1. [LWN - The early days of Linux](https://lwn.net/SubscriberLink/928581/841b747332791ac4/) - Lars Wirzenius
 
 <img src="/img/catjam.gif" alt="catjam" width="32">
 
