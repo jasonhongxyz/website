@@ -6,11 +6,8 @@ This page is for what I'm reading.
 
 A mixture of tech and culture, no real rhyme or reason here.
 
-1. [Email](https://explained-from-first-principles.com/email/) - Explained from First Principles
-1. [VALORANT's 128-Tick Servers](https://technology.riotgames.com/news/valorants-128-tick-servers) - Riot Games
-1. [Paving the Road to Vulkan on Asahi Linux](https://asahilinux.org/2023/03/road-to-vulkan/) - Asahi Linux
-1. [Bicycle](https://ciechanow.ski/bicycle/) - Bartosz Ciechanowski
-1. [LWN - The early days of Linux](https://lwn.net/SubscriberLink/928581/841b747332791ac4/) - Lars Wirzenius
+1. [Seeing Like A State](https://slatestarcodex.com/2017/03/16/book-review-seeing-like-a-state/) - Scott Alexander
+1. [How to Drop Out](https://ranprieur.com/essays/dropout.html) - Ran Prieur
 
 <img src="/img/catjam.gif" alt="catjam" width="32">
 
@@ -18,11 +15,16 @@ A mixture of tech and culture, no real rhyme or reason here.
 <details markdown="1">
 <summary>2023</summary>
 
-- [1-2] January - February
+- [1-2] January - April
   1. [Black Hawk Down](https://www.goodreads.com/en/book/show/55403.Black_Hawk_Down) - Mark Bowden
   1. [A Guide to the Go Garbage Collector](https://tip.golang.org/doc/gc-guide) - Golang Tips
   1. [Serving Netflix Video Traffic at 400Gb/s and Beyond](https://nabstreamingsummit.com/wp-content/uploads/2022/05/2022-Streaming-Summit-Netflix.pdf) - Drew Gallatin, NAB Show
   1. [In Cambodia, Rats Are Being Trained To Sniff Out Land Mines And Save Lives](https://www.npr.org/sections/parallels/2015/07/31/427112786/in-cambodia-rats-are-being-trained-to-sniff-out-land-mines-and-save-lives) - Michael Sullivan, NPR
+  1. [Email](https://explained-from-first-principles.com/email/) - Explained from First Principles
+  1. [VALORANT's 128-Tick Servers](https://technology.riotgames.com/news/valorants-128-tick-servers) - Riot Games
+  1. [Paving the Road to Vulkan on Asahi Linux](https://asahilinux.org/2023/03/road-to-vulkan/) - Asahi Linux
+  1. [Bicycle](https://ciechanow.ski/bicycle/) - Bartosz Ciechanowski
+  1. [LWN - The early days of Linux](https://lwn.net/SubscriberLink/928581/841b747332791ac4/) - Lars Wirzenius
 </details>
 
 <details markdown="1">
