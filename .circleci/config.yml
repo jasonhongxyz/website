@@ -24,10 +24,10 @@ jobs:
           tag: latest
       - add_ssh_keys:
           fingerprints:
-          - "21:8d:91:cd:1b:69:af:3e:b1:4a:af:13:24:79:eb:b2"
+          - "4a:b3:c4:d3:b2:76:30:d0:1d:20:e9:87:25:80:e8:24"
       - run: |
-          ssh-keyscan jasonhong.xyz >> ~/.ssh/known_hosts
-          ssh root@jasonhong.xyz \<<'ENDSSH'
+          ssh-keyscan jsnhong.com >> ~/.ssh/known_hosts
+          ssh root@jsnhong.com \<<'ENDSSH'
           cd website
           git pull
           docker pull jasonhongxyz/blog:latest
@@ -54,10 +54,10 @@ jobs:
           tag: latest
       - add_ssh_keys:
           fingerprints:
-          - "21:8d:91:cd:1b:69:af:3e:b1:4a:af:13:24:79:eb:b2"
+          - "4a:b3:c4:d3:b2:76:30:d0:1d:20:e9:87:25:80:e8:24"
       - run: |
-          ssh-keyscan jasonhong.xyz >> ~/.ssh/known_hosts
-          ssh root@jasonhong.xyz \<<'ENDSSH'
+          ssh-keyscan jsnhong.com >> ~/.ssh/known_hosts
+          ssh root@jsnhong.com \<<'ENDSSH'
           cd website
           git pull
           docker pull jasonhongxyz/tictactoe:latest
@@ -84,10 +84,10 @@ jobs:
           tag: latest
       - add_ssh_keys:
           fingerprints:
-          - "21:8d:91:cd:1b:69:af:3e:b1:4a:af:13:24:79:eb:b2"
+          - "4a:b3:c4:d3:b2:76:30:d0:1d:20:e9:87:25:80:e8:24"
       - run: |
-          ssh-keyscan jasonhong.xyz >> ~/.ssh/known_hosts
-          ssh root@jasonhong.xyz \<<'ENDSSH'
+          ssh-keyscan jsnhong.com >> ~/.ssh/known_hosts
+          ssh root@jsnhong.com \<<'ENDSSH'
           cd website
           git pull
           docker pull jasonhongxyz/jsnhongcom:latest
