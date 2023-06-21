@@ -2,7 +2,7 @@ FROM node:alpine as build-stage
 
 COPY jsnhongcom/ /usr/src/app/
 WORKDIR /usr/src/app
-RUN apk add --no-cache python3 make g++
+RUN apk add --no-cache python3 make g++ vips
 RUN npm install
 
 RUN npm run build
