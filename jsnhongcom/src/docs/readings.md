@@ -8,8 +8,11 @@ A mixture of tech and culture, no real rhyme or reason here.
 
 1. [Seeing Like A State](https://slatestarcodex.com/2017/03/16/book-review-seeing-like-a-state/) - Scott Alexander
 1. [How to Drop Out](https://ranprieur.com/essays/dropout.html) - Ran Prieur
-
-<img src="/img/catjam.gif" alt="catjam" width="32">
+1. [Choosing a Name for Your Computer](https://www.rfc-editor.org/rfc/rfc1178) - D. Libes
+1. [A Theory of Modern Golang](https://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html) - Peter Bourgon
+1. [Why is my dryer radioactive?](https://physics.stackexchange.com/questions/764460/why-is-my-dryer-radioactive#764460) - Physics Stack Exchange
+1. [Memory Allocation](https://samwho.dev/memory-allocation/) - Sam Who Dot Dev
+1. [Collections: How To Raise a Roman Army: The Dilectus](https://acoup.blog/2023/06/16/collections-how-to-raise-a-roman-army-the-dilectus/) - Bret Devereaux
 
 ### Archive
 <details markdown="1">

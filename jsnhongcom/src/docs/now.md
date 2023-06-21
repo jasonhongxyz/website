@@ -9,9 +9,9 @@ Currently...
 
 🌱 ~ I'm learning about microservice telemetry and monitoring.
 
-📖 ~ I'm reading the _Foundation_ series by Asimov and what's listed [here][readings].
+📖 ~ I'm reading the _Foundation_ series and what's listed [here][readings].
 
-📺 ~ I'm watching _House, MD_.
+📺 ~ I'm watching _Silo_.
 
 👾 ~ I'm playing [Factorio][factorio] and [VALORANT][valorant]. (Diamond 2)
 
