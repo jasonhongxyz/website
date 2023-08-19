@@ -13,6 +13,9 @@ A mixture of tech and culture, no real rhyme or reason here.
 1. [Why is my dryer radioactive?](https://physics.stackexchange.com/questions/764460/why-is-my-dryer-radioactive#764460) - Physics Stack Exchange
 1. [Memory Allocation](https://samwho.dev/memory-allocation/) - Sam Who Dot Dev
 1. [Collections: How To Raise a Roman Army: The Dilectus](https://acoup.blog/2023/06/16/collections-how-to-raise-a-roman-army-the-dilectus/) - Bret Devereaux
+1. [Politics is the Mind-Killer](https://www.lesswrong.com/posts/9weLK2AJ9JEt2Tt8f/politics-is-the-mind-killer) - Eliezer Yudkowsky, Less Wrong
+1. [Underwater Ears Everywhere](https://computer.rip/2023-07-15-underwater-ears-everywhere.html) - J.B. Crawford
+1. [Displayport: A Better Video Interface](https://hackaday.com/2023/07/11/displayport-a-better-video-interface/) - Arya Voronova, Hackaday
 
 ### Archive
 <details markdown="1">

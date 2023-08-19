@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import PageLayout from "@/layouts/Base";
 import PostPreview from "@/components/blog/PostPreview";
 import SocialList from "@/components/SocialList";
-import { Image } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import { sortMDByDate } from "@/utils";
 
 const MAX_POSTS = 10;
@@ -13,11 +13,11 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-    <Image 
+    <Image
       class="rounded-full"
       width="192"
       height="192"
-      src="/profile.jpg" 
+      src="/profile.jpg"
       alt="profile"
       align="right"
     />
