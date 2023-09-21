@@ -6,22 +6,19 @@ This page is for what I'm reading.
 
 A mixture of tech and culture, no real rhyme or reason here.
 
-1. [Seeing Like A State](https://slatestarcodex.com/2017/03/16/book-review-seeing-like-a-state/) - Scott Alexander
-1. [How to Drop Out](https://ranprieur.com/essays/dropout.html) - Ran Prieur
-1. [Choosing a Name for Your Computer](https://www.rfc-editor.org/rfc/rfc1178) - D. Libes
-1. [A Theory of Modern Golang](https://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html) - Peter Bourgon
-1. [Why is my dryer radioactive?](https://physics.stackexchange.com/questions/764460/why-is-my-dryer-radioactive#764460) - Physics Stack Exchange
-1. [Memory Allocation](https://samwho.dev/memory-allocation/) - Sam Who Dot Dev
-1. [Collections: How To Raise a Roman Army: The Dilectus](https://acoup.blog/2023/06/16/collections-how-to-raise-a-roman-army-the-dilectus/) - Bret Devereaux
-1. [Politics is the Mind-Killer](https://www.lesswrong.com/posts/9weLK2AJ9JEt2Tt8f/politics-is-the-mind-killer) - Eliezer Yudkowsky, Less Wrong
-1. [Underwater Ears Everywhere](https://computer.rip/2023-07-15-underwater-ears-everywhere.html) - J.B. Crawford
-1. [Displayport: A Better Video Interface](https://hackaday.com/2023/07/11/displayport-a-better-video-interface/) - Arya Voronova, Hackaday
+1. [Absurd Success](https://www.marginalia.nu/log/87_absurd_success/) - Marginalia
+1. [A Regular Expression Matcher](https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html) - Brian Kernighan
+1. [Knightmare: A DevOps Cautionary Tale](https://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/) - Doug Seven
+1. [Any sufficiently advanced uninstaller is indistinguishable from malware](https://devblogs.microsoft.com/oldnewthing/20230911-00/?p=108749) - Raymond Chen
+1. [How to present to executives.](https://lethain.com/present-to-executives/) - Will Larson
+1. [A Brief, Incomplete, and Mostly Wrong History of Programming Languages](https://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html) - James Iry
+1. [Exploring the internals of Linux v0.01](https://seiya.me/blog/reading-linux-v0.01) - seiya.me
 
 ### Archive
 <details markdown="1">
 <summary>2023</summary>
 
-- [1-2] January - April
+- [1-4] January - April
   1. [Black Hawk Down](https://www.goodreads.com/en/book/show/55403.Black_Hawk_Down) - Mark Bowden
   1. [A Guide to the Go Garbage Collector](https://tip.golang.org/doc/gc-guide) - Golang Tips
   1. [Serving Netflix Video Traffic at 400Gb/s and Beyond](https://nabstreamingsummit.com/wp-content/uploads/2022/05/2022-Streaming-Summit-Netflix.pdf) - Drew Gallatin, NAB Show
@@ -31,6 +28,18 @@ A mixture of tech and culture, no real rhyme or reason here.
   1. [Paving the Road to Vulkan on Asahi Linux](https://asahilinux.org/2023/03/road-to-vulkan/) - Asahi Linux
   1. [Bicycle](https://ciechanow.ski/bicycle/) - Bartosz Ciechanowski
   1. [LWN - The early days of Linux](https://lwn.net/SubscriberLink/928581/841b747332791ac4/) - Lars Wirzenius
+
+- [5-8] May - August
+  1. [Seeing Like A State](https://slatestarcodex.com/2017/03/16/book-review-seeing-like-a-state/) - Scott Alexander
+  1. [How to Drop Out](https://ranprieur.com/essays/dropout.html) - Ran Prieur
+  1. [Choosing a Name for Your Computer](https://www.rfc-editor.org/rfc/rfc1178) - D. Libes
+  1. [A Theory of Modern Golang](https://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html) - Peter Bourgon
+  1. [Why is my dryer radioactive?](https://physics.stackexchange.com/questions/764460/why-is-my-dryer-radioactive#764460) - Physics Stack Exchange
+  1. [Memory Allocation](https://samwho.dev/memory-allocation/) - Sam Who Dot Dev
+  1. [Collections: How To Raise a Roman Army: The Dilectus](https://acoup.blog/2023/06/16/collections-how-to-raise-a-roman-army-the-dilectus/) - Bret Devereaux
+  1. [Politics is the Mind-Killer](https://www.lesswrong.com/posts/9weLK2AJ9JEt2Tt8f/politics-is-the-mind-killer) - Eliezer Yudkowsky, Less Wrong
+  1. [Underwater Ears Everywhere](https://computer.rip/2023-07-15-underwater-ears-everywhere.html) - J.B. Crawford
+  1. [Displayport: A Better Video Interface](https://hackaday.com/2023/07/11/displayport-a-better-video-interface/) - Arya Voronova, Hackaday
 </details>
 
 <details markdown="1">
