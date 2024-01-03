@@ -6,7 +6,7 @@ This page is for what I'm reading.
 
 A mixture of tech and culture, no real rhyme or reason here.
 
-1. [A Comparison of ](https://danluu.com/seo-spam/) - Dan Luu
+1. [A Comparison of Search Results](https://danluu.com/seo-spam/) - Dan Luu
 
 ### Archive
 <details markdown="1">
