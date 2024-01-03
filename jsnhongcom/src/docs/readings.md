@@ -6,13 +6,7 @@ This page is for what I'm reading.
 
 A mixture of tech and culture, no real rhyme or reason here.
 
-1. [Absurd Success](https://www.marginalia.nu/log/87_absurd_success/) - Marginalia
-1. [A Regular Expression Matcher](https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html) - Brian Kernighan
-1. [Knightmare: A DevOps Cautionary Tale](https://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/) - Doug Seven
-1. [Any sufficiently advanced uninstaller is indistinguishable from malware](https://devblogs.microsoft.com/oldnewthing/20230911-00/?p=108749) - Raymond Chen
-1. [How to present to executives.](https://lethain.com/present-to-executives/) - Will Larson
-1. [A Brief, Incomplete, and Mostly Wrong History of Programming Languages](https://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html) - James Iry
-1. [Exploring the internals of Linux v0.01](https://seiya.me/blog/reading-linux-v0.01) - seiya.me
+1. [A Comparison of ](https://danluu.com/seo-spam/) - Dan Luu
 
 ### Archive
 <details markdown="1">
@@ -40,6 +34,17 @@ A mixture of tech and culture, no real rhyme or reason here.
   1. [Politics is the Mind-Killer](https://www.lesswrong.com/posts/9weLK2AJ9JEt2Tt8f/politics-is-the-mind-killer) - Eliezer Yudkowsky, Less Wrong
   1. [Underwater Ears Everywhere](https://computer.rip/2023-07-15-underwater-ears-everywhere.html) - J.B. Crawford
   1. [Displayport: A Better Video Interface](https://hackaday.com/2023/07/11/displayport-a-better-video-interface/) - Arya Voronova, Hackaday
+
+- [9-12] September - December
+  1. [Absurd Success](https://www.marginalia.nu/log/87_absurd_success/) - Marginalia
+  1. [A Regular Expression Matcher](https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html) - Brian Kernighan
+  1. [Knightmare: A DevOps Cautionary Tale](https://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/) - Doug Seven
+  1. [Any sufficiently advanced uninstaller is indistinguishable from malware](https://devblogs.microsoft.com/oldnewthing/20230911-00/?p=108749) - Raymond Chen
+  1. [How to present to executives.](https://lethain.com/present-to-executives/) - Will Larson
+  1. [A Brief, Incomplete, and Mostly Wrong History of Programming Languages](https://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html) - James Iry
+  1. [Exploring the internals of Linux v0.01](https://seiya.me/blog/reading-linux-v0.01) - seiya.me
+  1. [Why I Hate Frameworks](https://factoryfactoryfactory.net/) - Benji Smith
+
 </details>
 
 <details markdown="1">
