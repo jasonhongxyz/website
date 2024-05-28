@@ -18,7 +18,7 @@ export const siteConfig: SiteConfig = {
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
 	title: "Jason Hong | :)",
 	// Meta property used as a default description meta property
-	description: "An opinionated starter theme for Astro",
+	description: "I must not fear. Fear is the mind-killer.",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: "en-US",
 	// Meta property, found in src/components/BaseHead.astro L:42
