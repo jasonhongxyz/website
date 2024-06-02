@@ -1,2 +1,0 @@
-FROM nginx
-COPY jasonhongxyz/_site /usr/share/nginx/html

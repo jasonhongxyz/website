@@ -4,36 +4,6 @@ orbs:
   docker: circleci/docker@1.7.0
 
 jobs:
-  docker-blog:
-    docker:
-      # replace with your preferred image
-      - image: cimg/base:stable
-    steps:
-      - checkout
-      - setup_remote_docker:
-          docker_layer_caching: false
-      - docker/check:
-          docker-password: DOCKER_PASS 
-          docker-username: DOCKER_USER 
-      - docker/build:
-          dockerfile: Dockerfile-blog 
-          image: jasonhongxyz/blog
-          tag: latest
-      - docker/push:
-          image: jasonhongxyz/blog
-          tag: latest
-      - add_ssh_keys:
-          fingerprints:
-          - "4a:b3:c4:d3:b2:76:30:d0:1d:20:e9:87:25:80:e8:24"
-      - run: |
-          ssh-keyscan jsnhong.com >> ~/.ssh/known_hosts
-          ssh root@jsnhong.com \<<'ENDSSH'
-          cd website
-          git pull
-          docker pull jasonhongxyz/blog:latest
-          docker compose up -d
-          ENDSSH
-
   docker-tictactoe:
     docker:
       # replace with your preferred image
