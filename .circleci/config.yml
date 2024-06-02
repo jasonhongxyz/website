@@ -66,6 +66,5 @@ jobs:
 workflows:
   main:
     jobs:
-      - docker-blog
       - docker-tictactoe
       - docker-jsnhongcom
