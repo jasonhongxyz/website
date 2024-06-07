@@ -12,16 +12,31 @@ const allPosts = await getCollection("post");
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 ---
 
+<style>
+img {
+  float: right;
+  display: inline;
+}
+
+@media (max-width: 767px) {
+  img {
+    float: none;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+</style>
+
 <PageLayout meta={{ title: "Home" }}>
-	<section>
+  <section>
     <Image
       class="rounded-full"
       width="192"
       height="192"
       src={profileImg}
       alt="profile picture"
-      align="right"
-    />
+      />
 		<h1 class="title mb-6"><center>Hi! 👋 ~ I'm Jason.</center></h1>
 		<p class="mb-4">
       Software engineer <a href="https://twitter.com/Walmarttech" class="cactus-link">@Walmart</a>.<br/>
