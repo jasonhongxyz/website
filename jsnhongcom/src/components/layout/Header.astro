@@ -70,8 +70,8 @@ const url = new URL(Astro.request.url);
 					<a
 						href={link.path}
 						class="py-4 px-4 sm:py-0 sm:hover:underline"
-						aria-current={url.pathname === link.path ? "page" : false}
-						rel="prefetch"
+            aria-current={url.pathname === link.path ? "page" : false}
+            data-astro-prefetch
 					>
 						{link.title}
 					</a>
