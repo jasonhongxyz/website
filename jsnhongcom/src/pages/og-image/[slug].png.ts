@@ -82,5 +82,12 @@ export async function get({ params: { slug } }: APIContext) {
 
 export async function getStaticPaths(): Promise<GetStaticPathsResult> {
 	const posts = await getCollection("post");
-	return posts.filter(({ data }) => !data.ogImage).flatMap(({ slug }) => ({ params: { slug } }));
+  return posts
+	.filter(({ data }) => !data.ogImage)
+	.map((post) => ({
+		params: { slug: post.id },
+		props: {
+			title: post.data.title,
+		},
+	}));
 }
