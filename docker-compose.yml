@@ -35,15 +35,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     restart: always
 
-  tictactoe:
-    image: jasonhongxyz/tictactoe
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.tictactoe.rule=Host(`tictactoe.jasonhong.xyz`) || Host(`www.tictactoe.jasonhong.xyz`)" # || Host(`localhost`)"
-      - "traefik.http.routers.tictactoe.entrypoints=websecure"
-      - "traefik.http.routers.tictactoe.tls.certresolver=myresolver"
-    restart: always
-
   jsnhongcom:
     image: jasonhongxyz/jsnhongcom
     labels:
